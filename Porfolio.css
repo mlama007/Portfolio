@@ -1,0 +1,350 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+  /*background-image: url(https://cdn.pixabay.com/photo/2017/03/14/17/20/northern-lights-2143791_1280.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;*/
+  width: auto;
+  color: white;
+}
+
+p {
+  font-size: 15px;
+}
+
+h1{
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  color: white;
+}
+
+h2{
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  color: white;
+}
+
+.container {
+  max-width:940px;
+}
+
+/* Header*/
+.header {
+  padding: 10px 0;
+  background-color: rgba(0,0,0,.5);
+}
+
+.header img {
+  height: 35px;
+  width: auto; 
+}
+
+.header .container {
+  position: relative;
+  padding: 5px 0px;
+}
+
+.list {
+  display: inline-block;
+  list-style: none;
+  margin-left: -20px;
+}
+
+.list li {
+  display: inline;
+  margin: 0 15px 0 0;
+  color: white;
+  transition: all .2s ease-in;
+}
+
+.list li:hover{
+  color: rgba(79, 196, 214, 1);
+  border-bottom: 1px solid rgba(79, 196, 214, 1);
+  padding-bottom: 3px;
+  margin: 0 15px 0 0;
+}
+
+
+/* Jumbotron*/
+.jumbotron {
+  position: relative;
+  top: 50px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  background-color: transparent;
+  text-align: center;
+  color: white;
+  margin-top: 220px;
+}
+
+
+/* Typewritter */
+
+.typewriter h1, .typewriter h2 {
+  overflow: hidden;
+  border-right: .1em solid;
+  white-space: nowrap;
+  margin: 0 auto; 
+  letter-spacing: .15em;
+  width: 18em;
+}
+
+.typewriter h1 {
+  font-size: 50px;
+  animation:   
+    typing 3s steps(35, end),
+    blink-caret 1s step-end infinite;
+}
+
+.typewriter h2 {
+  animation: 
+    typing2 7s steps(35, end),  
+    blink-caret 1s step-end infinite;
+}
+
+/* The typing effect */
+  @keyframes typing {
+    from { width: 0;} 
+  }
+
+  @keyframes typing2 {
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{width: 100;}
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    0% { border-color: transparent }
+    50% { border-color: transparent }
+    100% {border-color: transparent}
+  }
+
+/* Supporting*/
+.supporting {
+  margin: 100px 50px 50px 50px;
+}
+
+.footer .container {
+  color: white;
+  text-align: center;
+}
+
+.button {
+    height: 50px;
+    width: 150px;
+    color: rgba(38, 80, 120, 1);
+    text-shadow: 0 2px 3px rgba(0,0,0,.4);
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.button:hover {
+  background-color: rgba(0,0,0,.5);
+  height: 50px;
+  width: 150px;
+  color: white;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+
+/*Parallex Img*/
+#landscape {
+  width: 100%;
+  height: 100vh;
+  perspective: 1px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: url("http://www.edwinkremer.nl/photography/portfolio/Landscapes/20160706_Lunersee_010.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/*About Me*/
+.aboutMe {
+  padding-top: 100px;
+  padding-bottom: 250px;
+  color: black;
+}
+
+.aboutMe h1 {
+  text-align: center;
+  padding-bottom: 100px;
+  font-size: 50px;
+  color: black;
+}
+
+.aboutMe li {
+  font-size: 10px;
+}
+
+.aboutMe p {
+  font-size: 13px;
+}
+
+/*carousel*/
+.carousel-inner > .item > img{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+}
+
+a.left.carousel-control{
+  float: left;
+}
+a.right.carousel-control{
+  float: right;
+}
+
+.myCarousel {
+  height: 300px;
+  width: 500px;
+}
+
+/*Projects*/
+.projectSection {
+  margin: 0;
+  padding-bottom: 100px;
+  background-image: url('https://cdn.pixabay.com/photo/2015/11/07/19/19/aurora-borealis-1032523_1280.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  text-align: center;
+}
+
+.projectSection .container {
+  border-top: thick double white;
+  margin-top: 100px;
+}
+
+#intro {
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+}
+
+#intro h1{
+  font-size: 60px;
+  text-shadow: 2px 5px 6px black;
+}
+
+.projects .container h1{
+  text-shadow: 0 2px 3px black;
+}
+
+.projectSection ul{
+  text-align: center;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}
+.projectSection ul.img-list img {
+  height: 200px;
+  width: 300px;
+}
+
+.projectSection ul.img-list li {
+  display: inline-block;
+  height: 200px;
+  margin: 0 1em 1em 0;
+  position: relative;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 200px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 300px;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 200px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 300px;
+  opacity: 0;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 200px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 300px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+
+
+/*Contact*/
+.Contact {
+  margin: 0;
+  padding: 250px;
+  background-image: url('https://cdn.pixabay.com/photo/2014/05/22/16/52/pyrenees-351266_1280.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  color: black;
+  font-weight: bold;
+}
+
+.Contact h3 {
+  color: white;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+
+.Contact h1 {
+  text-shadow: 2px 5px 6px black;
+}
+
+.Contact a {
+    text-decoration: none;
+    color: black;
+}
+
+.Contact img {
+    height: 24px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.Contact .container {
+  background-color:rgba(250,250,250,0.3);
+  border-radius: 5px;
+  padding: 25px;
+  padding-bottom: 50px;
+}
