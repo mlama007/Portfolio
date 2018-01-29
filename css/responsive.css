@@ -1,3 +1,18 @@
+/* @media screen and (max-width: 290px) {  
+    .list li {
+        font-size: 1em;
+    }
+} */
+@media screen and (min-width: 400px) and (max-width: 440px) {  
+    .list li {
+        font-size: 1.3em;
+    }
+}
+/* @media screen and (min-width: 391px) and (max-width: 455px) {  
+    .list li {
+        font-size: 1.7em;
+    }
+} */
 @media screen and (max-width: 480px) {  
     #skills {
         text-align: left;

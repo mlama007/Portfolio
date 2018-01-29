@@ -180,7 +180,8 @@ h2{
 #name{
   padding: 0;
   text-align: center;
-  color: black;
+  color: white;
+  text-shadow: .05em .05em .1em black;
 }
 #header {
   text-align: center;
@@ -201,6 +202,8 @@ h2{
 
 #skills-h3{
   padding-top: 1em;
+  color: white;
+  text-shadow: .025em .025em .05em black;
 }
 #skills {
   padding-bottom: 1em;
@@ -339,7 +342,7 @@ span.text-content {
   font-size: 2em;
 }
 
-.Contact a {
+#topContacts a, #footerContacts a{
     text-decoration: none;
     color: black;
 }
