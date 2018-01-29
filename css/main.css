@@ -148,17 +148,23 @@ h2{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+}
 
 /*About Me*/
 .aboutMe {
   padding-top: 1em;
   padding-bottom: 1em;
   color: black;
-  background-image: url("../images/biopk.jpg");
+  background: url("../images/biopk.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .aboutMe .container {
@@ -252,11 +258,15 @@ a.right.carousel-control{
 .projectSection {
   margin: 0;
   padding-bottom: 6.250em;
-  background-image: url('../images/mdbk.jpg');
+  background: url("../images/mdbk.jpg");
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;  
-  text-align: center;
+  background-size: cover;
 }
 
 .projectSection .container {
@@ -320,14 +330,19 @@ span.text-content {
 /*Contact*/
 .Contact {
   margin: 0;
-  padding: 1.563em;
-  background-image: url('../images/btbk.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
+  padding: 1.563em;  
   color: black;
   font-weight: bold;
   text-align: center;
+  background: url("../images/btbk.jpg");
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .Contact h1 {
