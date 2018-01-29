@@ -2,78 +2,63 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Merriweather', serif;
-  /*background-image: url(https://cdn.pixabay.com/photo/2017/03/14/17/20/northern-lights-2143791_1280.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;*/
   width: auto;
   color: white;
 }
 
 p {
-  font-size: 15px;
+  font-size: 1em;
 }
 
 h1{
-  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  text-shadow: 0 .03em .09em rgba(0,0,0,.4);
   color: white;
 }
 
 h2{
-  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  text-shadow: 0 .03em .09em rgba(0,0,0,.4);
   color: white;
 }
 
-.container {
-  max-width:940px;
-}
+
 
 /* Header*/
 .header {
-  padding: 10px 0;
   background-color: rgba(0,0,0,.5);
-}
-
-.header img {
-  height: 35px;
-  width: auto; 
-}
-
-.header .container {
   position: relative;
-  padding: 5px 0px;
+  padding: 1.2em 0em;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 .list {
   display: inline-block;
   list-style: none;
-  margin-left: -20px;
+  margin-right: 1em;
 }
 
 .list li {
   display: inline;
-  margin: 0 15px 0 0;
+  margin: 0 1em 0 0;
   color: white;
   transition: all .2s ease-in;
 }
 
 .list li:hover{
   color: rgba(79, 196, 214, 1);
-  border-bottom: 1px solid rgba(79, 196, 214, 1);
-  padding-bottom: 3px;
-  margin: 0 15px 0 0;
+  border-bottom: .1em solid rgba(79, 196, 214, 1);
+  padding-bottom: .2em;
 }
 
 
 /* Jumbotron*/
 .jumbotron {
   position: relative;
-  top: 50px;
-  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  text-shadow: 0 .03em .09em rgba(0,0,0,.4);
   background-color: transparent;
   text-align: center;
   color: white;
-  margin-top: 220px;
+  margin-top: 15em;
 }
 
 
@@ -89,7 +74,7 @@ h2{
 }
 
 .typewriter h1 {
-  font-size: 50px;
+  font-size: 3em;
   animation:   
     typing 3s steps(35, end),
     blink-caret 1s step-end infinite;
@@ -97,7 +82,7 @@ h2{
 
 .typewriter h2 {
   animation: 
-    typing2 7s steps(35, end),  
+    typing2 6.5s steps(30, end),  
     blink-caret 1s step-end infinite;
 }
 
@@ -121,7 +106,7 @@ h2{
 
 /* Supporting*/
 .supporting {
-  margin: 100px 50px 50px 50px;
+  margin: 1em 1em 5em 1em;
 }
 
 .footer .container {
@@ -130,33 +115,33 @@ h2{
 }
 
 .button {
-    height: 50px;
-    width: 150px;
+    height: 3.125em;
+    width: 19.375em;
     color: rgba(38, 80, 120, 1);
-    text-shadow: 0 2px 3px rgba(0,0,0,.4);
+    text-shadow: .1em .1em .2em rgba(0,0,0,.4);
     background-color: rgba(255, 255, 255, .5);
-    border-radius: 5px;
+    border-radius: .5em;
     margin: auto;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 0.938em;
 }
 
 .button:hover {
   background-color: rgba(0,0,0,.5);
-  height: 50px;
-  width: 150px;
+  height: 3.125em;
+  width: 9.375em;
   color: white;
-  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  text-shadow: .1em .1em .2em rgba(0,0,0,.4);
 }
 
 /*Parallex Img*/
 #landscape {
   width: 100%;
   height: 100vh;
-  perspective: 1px;
+  perspective: 0.063em;
   overflow-x: hidden;
   overflow-y: auto;
-  background: url("http://www.edwinkremer.nl/photography/portfolio/Landscapes/20160706_Lunersee_010.jpg") no-repeat center center fixed;
+  background: url("../images/tpbk.jpg") no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -168,31 +153,72 @@ h2{
 
 /*About Me*/
 .aboutMe {
-  padding-top: 100px;
-  padding-bottom: 250px;
+  padding-top: 1em;
+  padding-bottom: 1em;
   color: black;
+  background-image: url("../images/biopk.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.aboutMe .container {
+  background-color:rgba(184, 196, 201, 0.562);
+  border-radius: 1em;
+  padding: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
 }
 
 .aboutMe h1 {
   text-align: center;
-  padding-bottom: 100px;
-  font-size: 50px;
+  padding-bottom: .3em;
+  font-size: 3.750em;
+  text-shadow: .1em .1em .2em black;
+}
+
+#name{
+  padding: 0;
+  text-align: center;
   color: black;
 }
-
-.aboutMe li {
-  font-size: 10px;
+#header {
+  text-align: center;
+  padding-bottom: 3em;
 }
 
-.aboutMe p {
-  font-size: 13px;
+.flex-box{
+  display: inline;
+  padding: 0;
+}
+
+.flex-item{
+  list-style: none;
+  font-size: 1em;
+  padding-right: 3em;
+  display: inline-block;
+}
+
+#skills-h3{
+  padding-top: 1em;
+}
+#skills {
+  padding-bottom: 1em;
+  border-bottom: 1px solid #f3f6db;
+}
+.bold-text {
+  font-weight: bold;
+}
+
+#summary {  
+  text-indent: 2em;
 }
 
 /*carousel*/
 .carousel-inner > .item > img{
-    width: 500px;
-    height: 300px;
-    margin: auto;
+  height: 18.750em;
+  width: 31.250em;
+  margin: auto;
 }
 
 a.left.carousel-control{
@@ -203,15 +229,23 @@ a.right.carousel-control{
 }
 
 .myCarousel {
-  height: 300px;
-  width: 500px;
+  height: 18.750em;
+  width: 31.250em;
 }
 
 /*Projects*/
+/* .img-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+} */
+
 .projectSection {
   margin: 0;
-  padding-bottom: 100px;
-  background-image: url('https://cdn.pixabay.com/photo/2015/11/07/19/19/aurora-borealis-1032523_1280.jpg');
+  padding-bottom: 6.250em;
+  background-image: url('../images/mdbk.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;  
@@ -220,72 +254,40 @@ a.right.carousel-control{
 
 .projectSection .container {
   border-top: thick double white;
-  margin-top: 100px;
+  margin-top: 6.250em;
 }
 
 #intro {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 6.250em;
   color: white;
 }
 
 #intro h1{
-  font-size: 60px;
-  text-shadow: 2px 5px 6px black;
+  font-size: 3.750em;
+  text-shadow: .1em .1em .2em black;
 }
 
 .projects .container h1{
-  text-shadow: 0 2px 3px black;
+  text-shadow: .1em .1em .2em black;
 }
 
-.projectSection ul{
-  text-align: center;
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-}
 .projectSection ul.img-list img {
-  height: 200px;
-  width: 300px;
+  height: 12.500em;
+  width: 18.750em;
 }
 
 .projectSection ul.img-list li {
   display: inline-block;
-  height: 200px;
+  height: 12.500em;
   margin: 0 1em 1em 0;
   position: relative;
-}
-
-span.text-content {
-  background: rgba(0,0,0,0.5);
-  color: white;
-  cursor: pointer;
-  display: table;
-  height: 200px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 300px;
 }
 
 span.text-content span {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
-}
-
-
-span.text-content {
-  background: rgba(0,0,0,0.5);
-  color: white;
-  cursor: pointer;
-  display: table;
-  height: 200px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 300px;
-  opacity: 0;
 }
 
 ul.img-list li:hover span.text-content {
@@ -296,11 +298,11 @@ span.text-content {
   color: white;
   cursor: pointer;
   display: table;
-  height: 200px;
+  height: 12.500em;
   left: 0;
   position: absolute;
   top: 0;
-  width: 300px;
+  width: 18.750em;
   opacity: 0;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
@@ -308,27 +310,28 @@ span.text-content {
   transition: opacity 500ms;
 }
 
-
-
 /*Contact*/
 .Contact {
   margin: 0;
-  padding: 250px;
-  background-image: url('https://cdn.pixabay.com/photo/2014/05/22/16/52/pyrenees-351266_1280.jpg');
+  padding: 1.563em;
+  background-image: url('../images/btbk.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;  
   color: black;
   font-weight: bold;
+  text-align: center;
+}
+
+.Contact h1 {
+  text-shadow: .1em .1em .2em black;
+  padding-bottom: 1em;
 }
 
 .Contact h3 {
   color: white;
-  text-shadow: 0 2px 3px rgba(0,0,0,.4);
-}
-
-.Contact h1 {
-  text-shadow: 2px 5px 6px black;
+  text-shadow: .1em .1em .2em black;
+  font-size: 2em;
 }
 
 .Contact a {
@@ -336,15 +339,19 @@ span.text-content {
     color: black;
 }
 
+.Contact p {
+    font-size: 1.5em;
+    padding-bottom: 1.5em;
+}
 .Contact img {
-    height: 24px;
-    margin-top: 10px;
-    margin-right: 10px;
+    height: 2.3em;
+    margin: 2em;
 }
 
 .Contact .container {
-  background-color:rgba(250,250,250,0.3);
-  border-radius: 5px;
-  padding: 25px;
-  padding-bottom: 50px;
+  background-color:rgba(46, 100, 122, 0.562);
+  border-radius: 1em;
+  padding: 3.5em;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
