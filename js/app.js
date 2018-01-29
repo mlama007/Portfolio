@@ -283,7 +283,7 @@ var projects = {
 	"thirdProjects": [
 		{
 			"title": "Suggestion Box",
-			"link": "https://mlama007.github.io/SuggestionBox/ ",
+			"link": "https://mlama007.github.io/SuggestionBox/#/suggestions",
 			"image": ["images/3/sugg.png"]
 		},
 		{
