@@ -247,13 +247,9 @@ a.right.carousel-control{
 }
 
 /*Projects*/
-/* .img-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto;
-  padding: auto;
+.projects {
   text-align: center;
-} */
+}
 
 .projectSection {
   margin: 0;
