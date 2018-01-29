@@ -282,6 +282,41 @@ var projects = {
 	],
 	"thirdProjects": [
 		{
+			"title": "Blue Label Pools",
+			"link": "http://bluelabelpools.com/",
+			"image": ["images/3/blue.png"]
+		},
+		{
+			"title": "Neighborhood Map",
+			"link": "https://mlama007.github.io/NeighborhoodMap/",
+			"image": ["images/3/neig.png"]
+		},
+		{
+			"title": "Arcade Game",
+			"link": "https://mlama007.github.io/ArcadeGame/",
+			"image": ["images/3/arca.png"]
+		},
+		{
+			"title": "Memory Game",
+			"link": "https://mlama007.github.io/MemoryGame/",
+			"image": ["images/3/match.png"]
+		},
+		{
+			"title": "To do List",
+			"link": "https://mlama007.github.io/TODO-app/",
+			"image": ["images/3/todo.png"]
+		},
+		{
+			"title": "Pixel Art Maker",
+			"link": "https://mlama007.github.io/PixelArtMaker/",
+			"image": ["images/3/pixe.png"]
+		},
+		{
+			"title": "The Brighton Times",
+			"link": "https://mlama007.github.io/HomeTownApp/",
+			"image": ["images/3/brig.png"]
+		},
+		{
 			"title": "Suggestion Box",
 			"link": "https://mlama007.github.io/SuggestionBox/#",
 			"image": ["images/3/sugg.png"]
@@ -355,41 +390,6 @@ var projects = {
 			"title": "Near Me",
 			"link": "https://mlama007.github.io/17NearMe/",
 			"image": ["images/3/near.png"]
-		},
-		{
-			"title": "Blue Label Pools",
-			"link": "http://bluelabelpools.com/",
-			"image": ["images/3/blue.png"]
-		},
-		{
-			"title": "Neighborhood Map",
-			"link": "https://mlama007.github.io/NeighborhoodMap/",
-			"image": ["images/3/neig.png"]
-		},
-		{
-			"title": "Arcade Game",
-			"link": "https://mlama007.github.io/ArcadeGame/",
-			"image": ["images/3/arca.png"]
-		},
-		{
-			"title": "Memory Game",
-			"link": "https://mlama007.github.io/MemoryGame/",
-			"image": ["images/3/match.png"]
-		},
-		{
-			"title": "To do List",
-			"link": "https://mlama007.github.io/TODO-app/",
-			"image": ["images/3/todo.png"]
-		},
-		{
-			"title": "Pixel Art Maker",
-			"link": "https://mlama007.github.io/PixelArtMaker/",
-			"image": ["images/3/pixe.png"]
-		},
-		{
-			"title": "The Brighton Times",
-			"link": "https://mlama007.github.io/HomeTownApp/",
-			"image": ["images/3/brig.png"]
 		}
 	]
 };
