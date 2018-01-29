@@ -427,7 +427,7 @@ var bio = {
 		//"blog": "https://www.mymili.com/index.html",
 		//"mobile": "1111",
 	},
-	"summary": "I am a Board Certified Assistant Behavior Analyst; I have been in the Applied Behavior Analysis field for 8 years. My interests include crocheting and outdoor activities. <p> I am a self-taught developer. My drive to be a self-taught developer shows my appetite for knowledge. I received a scholarship with Google to complete a Mobile Web Specialist nanodegree program. I have also completed a Font-End Web Developer nanodegree with Udacity along with many other online courses. I completed a wide range of courses in CodeCademy and other sites.</p>",
+	"summary": "I am a Board Certified Assistant Behavior Analyst; I have been in the Applied Behavior Analysis field for 8 years. My interests include crocheting and outdoor activities. <p> I am a self-taught developer. My drive to be a self-taught developer shows my appetite for knowledge. I received a scholarship with Google to complete a Mobile Web Specialist nanodegree program. I have also completed a Font-End Web Developer nanodegree with Udacity along with a wide range of courses in CodeCademy and other sites.</p>",
     "skills": [
 		"HTML5",
 		"CSS3",

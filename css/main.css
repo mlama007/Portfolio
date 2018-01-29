@@ -209,7 +209,12 @@ h2{
 .bold-text {
   font-weight: bold;
 }
-
+#skills {
+  text-align: left;
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+}
 #summary {  
   text-indent: 2em;
 }
