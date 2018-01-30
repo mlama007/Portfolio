@@ -1,95 +1,218 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<title>Personal Trainer</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="css/main.css">
-<style>
-
-</style>
-<body>
-
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
-    <a href="#home" class="w3-bar-item w3-button">John Doe</a>
-    <!-- Right-sided navbar links. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button">About</a>
-      <a href="#menu" class="w3-bar-item w3-button">Services</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-    </div>
-  </div>
-</div>
-
-<!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img class="w3-image" id = "dumbbells" src="images/dumbbells.jpg" alt="dumbbells">
-  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
-    <h1 class="w3-xxlarge">Personal Fitness</h1>
-  </div>
-</header>
-
-<!-- Page content -->
-<div class="w3-content" style="max-width:1100px">
-
-  <!-- About Section -->
-  <div class="w3-row w3-padding-64" id="about">
-    <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="images/fry.jpg" class="w3-round w3-image w3-opacity-min" alt="profile picture" width="600" height="750">
-    </div>
-
-    <div class="w3-col m6 w3-padding-large">
-      <h1 class="w3-center">About Me</h1><br>
-      <h5 class="w3-center">Personal Trainer</h5>
-      <p class="w3-large">Write a paragraph about yourself. Write a paragraph about yourself. Write a paragraph about yourself. Write a paragraph about yourself. Write a paragraph about yourself. Write a paragraph about yourself. </p>
-      <p class="w3-large w3-text-grey w3-hide-medium">Write a paragraph about yourself. Write a paragraph about yourself. Write a paragraph about yourself. Write a paragraph about yourself.</p>
-    </div>
-  </div>
-  
-  <hr>
-  
-  <!-- Menu Section -->
-  <div class="w3-row w3-padding-64" id="menu">
-    <div class="w3-col l6 w3-padding-large">
-      <h1 class="w3-center">Services</h1><br>
-      <h4>Services 1</h4>
-      <p class="w3-text-grey">Information about it</p><br>
-      <h4>Services 2</h4>
-      <p class="w3-text-grey">Information about it</p><br>
-      <h4>Services 3</h4>
-      <p class="w3-text-grey">Information about it</p><br>  
-    </div>
+  <head>
+    <title>Maria Lamardo</title>
+    <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+    <link rel='stylesheet' href='css/main.css'>
+    <link rel='stylesheet' href='css/responsive.css'>
+    <meta name="viewport" content="width=device-width,initial-scale=1">    
+  </head>
+  <body>
     
-    <div class="w3-col l6 w3-padding-large">
-      <img src="images/fitness.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+<!--Header-->
+  <div id= 'landscape'>
+    <div class="header">
+      <div class="container">
+       <!-- <span class="heart">&#10084;</span> -->
+        <ul class="list">
+          <li id= 'aboutme'>About Me</li>
+          <li class='projectsroll'>Projects</li>
+          <li id='contactme'>Contact Me</li>
+        </ul>
+        <!-- <span class="heart">&#10084;</span> -->
+      </div>
     </div>
-  </div>
 
-  <hr>
+<!--Jumbotron-->
+    <div class="jumbotron">
+      <div class="typewriter">
+            <h1>My name is Maria Lamardo</h1>
+            </br>
+            <h2>Welcome to my website</h2>
+        </div>
+    </div>
 
-  <!-- Contact Section -->
-  <div class="w3-container w3-padding-64" id="contact">
-    <h1>Contact</h1><br>
-    <p>Intro paragraph.</p>
-    <p class="w3-text-blue-grey w3-large"><b>Personal Trainer, Broward county</b></p>
-    <p>Please feel free to call me at:</p>
-    <a href="tel:###-###-###">###-###-###</a>
-    <p>You can also reach me via email at: <a href="mailto:example@gmail.com">example@gmail.com</a></p>
-    
-  </div>
-  
-<!-- End page content -->
-</div>
+    <!--Supporting-->
+    <div class="supporting">
+      <div class="container">
+        <span class='projectsroll'><h4 class="button"> Projects </h4></span>
+      </div>
+    </div>
 
-<!-- Footer -->
-<footer class="w3-center w3-light-grey w3-padding-32">
-  <div>
-    <a href="tel:###-###-###"><img id="icon" src="images/Icons/phone.svg"/></a>
-    <a href="mailto:example@gmail.com"><img id="icon2" src= "images/Icons/email.svg"/></a>
-  </div>
-</footer>
+  </div>    
 
-</body>
+<!-- About Me -->    
+    <div class="aboutMe">
+      <div class= 'container'>         
+        <h1>About Me</h1>
+        <div id="header" class="center-content clear-fix">
+          <ul id="topContacts" class="flex-box"></ul>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <p id="summary"> </p>      
+          </div>
+          <div class="col-md-6">
+              <div class="myCarousel" class="carousel slide">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li class="item1 active"></li>
+                  <li class="item2"></li>
+                  <li class="item3"></li>
+                  <li class="item4"></li>
+                  <li class="item2"></li>
+                  <li class="item6"></li>
+                  <li class="item7"></li>
+                  <li class="item7"></li>
+                  <li class="item8"></li>
+                  <li class="item9"></li>
+                  <li class="item10"></li>
+                  <li class="item11"></li>
+                  <li class="item12"></li>
+                  <li class="item13"></li>
+                  <li class="item14"></li>
+                  <li class="item15"></li>
+                  <li class="item16"></li>
+                  <li class="item17"></li>
+                  <li class="item18"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="images/0/0.jpg" alt="face with colored chalk"/>
+                  </div>
+                  <div class="item">
+                    <img src="images/0/1.jpg" alt="view of mountain"/>
+                  </div>
+                  <div class="item">
+                    <img src="images/0/2.jpg" alt="kayak at sea"/>
+                  </div>                
+                  <div class="item">
+                    <img src="images/0/3.jpg" alt="rapel down waterfall"/>
+                  </div>
+                  <div class="item">
+                    <img src="images/0/4.jpg" alt="ziplining"/>
+                  </div>                  
+                  <div class="item">
+                    <img src="images/0/5.jpg" alt="river tubing"/>
+                  </div>                  
+                  <div class="item">
+                    <img src="images/0/6.jpg" alt="waterslide"/>
+                  </div>                  
+                  <div class="item">
+                    <img src="images/0/7.jpg" alt="surfing"/>
+                  </div>                  
+                  <div class="item">
+                    <img src="images/0/8.jpg" alt="standing on top of a mountain"/>
+                  </div>                  
+                  <div class="item">
+                    <img src="images/0/9.jpg" alt="kayak in a river"/>
+                  </div>                  
+                  <div class="item">
+                    <img src="images/0/10.jpg" alt="me on kayak"/>
+                  </div>                  
+                  <div class="item">
+                    <img src="images/0/11.jpg" alt="hiking in forrest"/>
+                  </div>                  
+                  <div class="item">
+                    <img src="images/0/12.jpg" alt="sitting on a waterfall"/>
+                  </div>
+                  <div class="item">
+                    <img src="images/0/13.jpg" alt="crochet octopus"/>
+                  </div>
+                  <div class="item">
+                    <img src="images/0/14.jpg" alt="crochet baby sheep outfit"/>
+                  </div>
+                  <div class="item">
+                    <img src="images/0/15.jpg" alt="crochet baby dress"/>
+                  </div>
+                  <div class="item">
+                    <img src="images/0/16.jpg" alt="crochet baby onesie"/>
+                  </div>                  
+                  <div class="item">
+                    <img src="images/0/17.jpg" alt="crochet baby jacket"/>
+                  </div>
+                  <div class="item">
+                    <img src="images/0/18.jpg" alt="crochet baby jacket"/>
+                  </div>
+              
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" role="button">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" role="button">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>        
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div class='projectSection'>
+      <div id= 'intro'>
+        <h1>My Projects</h1>
+        <h4>Here you can explore some of the projects I have worked on.</h4>
+      </div>
+
+      <!-- The first section div -->
+      <div class="projects">
+        <div class="container">
+          <h1>Interactive</h1>
+          <p>Here are some of my projects using Anjular, APIs, responsive design, knockout and more.</p>
+          <div class="containered">   
+            <ul id="third" class= "img-list"></ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- The second section div -->
+      <div class="projects">
+        <div class="container">
+          <h1>JavaScript / JQuery</h1>
+          <p>Explore how JavaScript and JQuery can bring webpages to life.</p>
+          <div class="containered">   
+            <ul id="second" class="img-list"></ul> 
+          </div>
+        </div>
+      </div>
+
+      <!-- The third section div -->
+      <div class="projects">
+        <div class="container">
+          <h1>HTML / CSS / SCSS</h1>
+          <p>In this section, you will find webpages using HTML, CSS and SCSS for structure and style.</p>
+          <p>These are mock designs for different types of layouts I made.</p>          
+          <div class="containered">   
+            <ul id="first" class="img-list"></ul> 
+          </div>
+        </div>
+      </div>   
+    </div>
+
+<!-- Contact Me -->
+    <div class="Contact">
+      <div class="container">
+        <h1>Contact Me</h1>
+        <div id="lets-connect" class="dark-gray">
+          <ul id="footerContacts" class="flex-box"></ul>
+        </div>
+        <div id="icons"></div>        
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/helper.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>
