@@ -138,6 +138,7 @@ h2{
   width: 100%;
   height: 100vh;
   perspective: 0.063em;
+  overflow-x: hidden;
   overflow-y: hidden;
   background: url("../images/tpbk.jpg") no-repeat center center fixed;
   background-size: cover;
@@ -203,7 +204,13 @@ h2{
   padding-right: 3em;
   display: inline-block;
 }
+.bold-text {
+  font-weight: bold;
+}
 
+#skills .flex-item{
+  display: table-row;
+}
 #skills-h3{
   padding-top: 1em;
   color: white;
@@ -212,11 +219,6 @@ h2{
 #skills {
   padding-bottom: 1em;
   border-bottom: 1px solid #f3f6db;
-}
-.bold-text {
-  font-weight: bold;
-}
-#skills {
   text-align: left;
   -webkit-column-count: 4;
   -moz-column-count: 4;
