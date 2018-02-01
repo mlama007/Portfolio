@@ -48,6 +48,7 @@ h2{
   color: rgba(79, 196, 214, 1);
   border-bottom: .1em solid rgba(79, 196, 214, 1);
   padding-bottom: .2em;
+  cursor: pointer;
 }
 
 
@@ -131,6 +132,7 @@ h2{
   width: 9.375em;
   color: white;
   text-shadow: .1em .1em .2em rgba(0,0,0,.4);
+  cursor: pointer;
 }
 
 /*Parallex Img*/
@@ -306,6 +308,7 @@ span.text-content span {
 
 ul.img-list li:hover span.text-content {
   opacity: 1;
+  cursor: pointer;
 }
 span.text-content {
   background: rgba(0,0,0,0.5);
