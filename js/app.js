@@ -94,12 +94,12 @@ var projects = {
 	"firstProjects": [
 		{
 			"title": "Broadway",
-			"link": "https://github.com/mlama007/1Broadway",
+			"link": "https://mlama007.github.io/1Broadway/",
 			"image": ["images/1/broadway.png"]
 		},
 		{
 			"title": "Innovation Cloud",
-			"link": "https://github.com/mlama007/2InnovationCloud",
+			"link": "https://mlama007.github.io/2InnovationCloud/",
 			"image": ["images/1/innov.png"]
 		},
 		// {
@@ -194,7 +194,7 @@ var projects = {
 		},
 		{
 			"title": "Tundra Gallery",
-			"link": "images/1/tundra.png",
+			"link": "https://mlama007.github.io/TundraGallery/",
 			"image": ["images/1/tundra.png"]
 		}
 	],
