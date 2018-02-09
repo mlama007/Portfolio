@@ -1,6 +1,5 @@
 //Carousel//
 $(document).ready(function(){
-
     // Activate Carousel
     $(".myCarousel").carousel({interval: 3000});
     // Enable Carousel Indicators
@@ -102,11 +101,6 @@ var projects = {
 			"link": "https://mlama007.github.io/2InnovationCloud/",
 			"image": ["images/1/innov.png"]
 		},
-		// {
-		// 	"title": "Move",
-		// 	"link": "https://github.com/mlama007/3Move",
-		// 	"image": ["images/1/move.png"]
-		// },
 		{
 			"title": "Shutterbug",
 			"link": "https://mlama007.github.io/4Shutterbug/",
@@ -142,11 +136,6 @@ var projects = {
 			"link": "https://mlama007.github.io/10Excursion/",
 			"image": ["images/1/excursion.png"]
 		},
-		// {
-		// 	"title": "Pocketbook",
-		// 	"link": "https://mlama007.github.io/11Pocketbook/",
-		// 	"image": ["images/1/pocket.png"]
-		// },
 		{
 			"title": "Bolt Network",
 			"link": "https://mlama007.github.io/12BoltNetwork/",
@@ -157,11 +146,6 @@ var projects = {
 			"link": "https://mlama007.github.io/13Bass/",
 			"image": ["images/1/bass.png"]
 		},
-		// {
-		// 	"title": "Armando Perez",
-		// 	"link": "https://mlama007.github.io/14ArmandoPerez/",
-		// 	"image": ["images/1/Armand.png"]
-		// },
 		{
 			"title": "Newsroom",
 			"link": "https://mlama007.github.io/15Newsroom/",
@@ -346,16 +330,6 @@ var projects = {
 			"link": "https://mlama007.github.io/5InstallApp/",
 			"image": ["images/3/inst.png"]
 		},
-		// {
-		// 	"title": "Gameboard",
-		// 	"link": "https://mlama007.github.io/6Gameboard/",
-		// 	"image": ["images/3/game.png"]
-		// },
-		// {
-		// 	"title": "Feedster",
-		// 	"link": "https://mlama007.github.io/7Feedster/",
-		// 	"image": ["images/3/feed.png"]
-		// },
 		{
 			"title": "Service",
 			"link": "https://mlama007.github.io/8Service/",
@@ -469,8 +443,8 @@ bio.display = function() {
 	//footerContacts
 	var replaceChars3={ "%data%":bio.contacts.email, "%data%":bio.contacts.email};
     var formattedEmail2 = HTMLemail2.replace(/%data%|%data%/g,function(match) {return replaceChars2[match];})
-	var formattedGithub2 = HTMLgithub2.replace("%data%",bio.contacts.github);
-	var formattedLinkedin = HTMLlinkedin.replace("%data%", bio.contacts.linkedin);
+	var formattedLinkedin = HTMLlinkedin.replace("%data%",bio.contacts.github);
+	var formattedGithub2 = HTMLgithub2.replace("%data%", bio.contacts.linkedin);
 	$("#footerContacts").append(formattedEmail2, formattedGithub2, formattedLinkedin);
 	//footer icons
 	var formattediconsEmail = HTMLiconsEmail.replace("%data%", bio.contacts.email);

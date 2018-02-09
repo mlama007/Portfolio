@@ -18,8 +18,8 @@ var HTMLgithub = '<li class="flex-item"><span class="bold-text">Github: </span><
 var HTMLlocation = '<li class="flex-item"><span class="bold-text">Location: </span>%data%</span></li>';
 
 var HTMLemail2 = '<h3>Email</h3><p><a href="mailto:%data%">%data%</a></p>';
-var HTMLgithub2 = '<h3>LinkedIn</h3><p><a href="%data%">mlama007</a></p>';
-var HTMLlinkedin = '<h3>Github</h3><p><a href="%data%">Maria Lamardo</a></p>';
+var HTMLlinkedin = '<h3>LinkedIn</h3><p><a href="%data%">mlama007</a></p>';
+var HTMLgithub2 = '<h3>Github</h3><p><a href="%data%">Maria Lamardo</a></p>';
 var HTMLiconsEmail = '<a href="mailto:%data%"><img src= "images/Icons/email.svg"/></a>';
 var HTMLiconsLinkedIn = '<a href= "%data%"><img src= "images/Icons/LinkedIn.png"/></a>'
 var HTMLiconsGitHub = '<a href="%data%"><img src= "images/Icons/Github.png"/></a>';
